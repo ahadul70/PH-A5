@@ -1,8 +1,8 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 .text-primary {
@@ -11,28 +11,107 @@ body{
   font-weight: 700;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    color: white;
-    padding: 10px 20px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 20px;
 }
 
-.div_left{
-    display: flex;
-    justify-content: center;
-    align-items: center; gap: 1rem;
+.div_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-.div_left img{
-    width: 5rem;
-    height: 5rem;}
+
+.div_left img {
+  width: 5rem;
+  height: 5rem;
+}
 
 
-.div_right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.div_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main_body {
+  display: flex;
+}
+
+
+.number {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 2.5rem auto;
+}
+
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+
+
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.card_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.card_bottom h2 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.card_bottom h1 {
+  font-size: 1.1rem;
+  margin-top: 0;
+
+}
+.card_bottom {
+  padding: 10px;
+  flex-grow: 1;
+}
+.card_bottom p {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+.card_top img {
+  width: 2rem;
+  height: 2rem;
+}
+.card_bottom2 h1{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.card_bottom2{
+    padding: 10px;
+  flex-grow: 1;
+}
+
+.div_buttins{
+  display: flex;
+    padding: 10px;
+  gap: 0.5rem;
+}
+
+.div_buttins button{
+  width: 100%;
+  border-radius: 14px;
+  border: none;
 }
