@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f5fff6;
 }
 
 .text-primary {
@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  color: white;
+  
   padding: 10px 20px;
 }
 
@@ -40,6 +40,31 @@ body {
   gap: 20px;
 }
 
+
+
+.hero-section{
+text-align: center;
+background: linear-gradient(to right, #013223, #006747, #013223);
+color: white;
+
+}
+
+.hero-section img {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  ;
+}
+
+.hero-section p{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
 .main_body {
   display: flex;
 }
@@ -55,7 +80,7 @@ body {
 
 
 .grid-item {
-  background-color: #4CAF50;
+  background-color: #ffffff;
   color: white;
   display: flex;
 
@@ -72,22 +97,24 @@ body {
   flex-grow: 1;
 }
 
+.card_top span{
+  font-size: 2.5rem;
+  border: black;
+ 
+}
 .card_bottom h2 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
-.card_bottom h1 {
-  font-size: 1.1rem;
-  margin-top: 0;
 
-}
 .card_bottom {
   padding: 10px;
   flex-grow: 1;
+  color: black;
 }
 .card_bottom p {
-  font-size: 0.9rem;
+  font-size: 2rem;
   margin-top: 0;
 }
 .card_top img {
@@ -102,6 +129,22 @@ body {
 .card_bottom2{
     padding: 10px;
   flex-grow: 1;
+
+}
+.card_bottom2 button{
+  background-color: #f2f2f2;
+  border-radius: 14px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.card_bottom2 h1{
+  font-weight: bold;
+  color: black;
+   font-size: 2rem;
+  margin-top: 0;
 }
 
 .div_buttins{
@@ -114,4 +157,10 @@ body {
   width: 100%;
   border-radius: 14px;
   border: none;
+  font-size: 1.5rem;
+}
+
+.tag{
+  background-color: #f2f2f2;
+
 }
