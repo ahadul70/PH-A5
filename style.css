@@ -229,11 +229,21 @@ body {
 
 .copy_btn {
   color: grey;
-  padding: 5px;
+  padding: 6px 12px;   /* more balanced padding */
   background-color: white;
   border: 1px solid grey;
   border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;      /* consistent text size */
+  transition: all 0.3s ease; /* smooth hover effect */
 }
+
+.copy_btn:hover {
+  background-color: grey;
+  color: white;
+  border-color: grey
+}
+
 
 .call_btn {
   color: white;
@@ -241,9 +251,14 @@ body {
   background-color: #00A63E;
   border: 1px solid #00A63E;
   border-radius: 7px;
+   cursor: pointer;
 }
 
-
+.call_btn:hover {
+  background-color: grey;
+  color: white;
+  border-color: grey
+}
 /*history section*/
 
 .history {
