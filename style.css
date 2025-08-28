@@ -127,7 +127,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
-  margin: 2.5rem auto;
+ 
   flex: 0 0 80%;
 }
 
@@ -137,7 +137,7 @@ body {
   color: white;
   display: flex;
 
-
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.151);
   border-radius: 8px;
   flex-direction: column;
 }
@@ -247,9 +247,10 @@ body {
 
 .history {
   width: 100%;
-  background-color: white;
-  margin-top: 2rem;
+  background-color: rgb(255, 255, 255);
+ 
   border-radius: 14px;
+  height: 100vh;
 }
 
 .history_top {
@@ -258,4 +259,47 @@ body {
   align-items: center;
   padding: 10px;
 
+}
+
+.history_item {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  background-color: rgb(98%, 98%, 98%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+  height: 5rem;
+}
+
+
+
+.history_line1 {
+  font-weight: 900;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history_line2 {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 2px;
+}
+
+
+@media (max-width: 578px) {
+    
+    .main_body {
+        flex-direction: column;
+    }
+
+  
+    .number {
+        grid-template-columns: 1fr;
+    }
+
+    .history {
+        flex: 1;
+        margin-top: 1rem;
+    }
 }
